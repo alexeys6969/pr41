@@ -23,6 +23,7 @@ namespace TimeLord_MVVM_Shashin
         public MainWindow()
         {
             InitializeComponent();
+            frame.Navigate(new View.Main());
         }
     }
 }
